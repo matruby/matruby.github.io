@@ -135,7 +135,7 @@ section {
 .banner {
     width: 100%;
     height: 200px; /* Adjust the height of the banner */
-    background-image: url("../Images/Header_Image.png"); /* Path to your banner image */
+    background-image: url("Header_Image.png"); /* Path to your banner image */
     background-size: cover; /* Cover the entire container */
     background-position: center; /* Center the image within the container */
     margin: 0; /* Remove margin */
