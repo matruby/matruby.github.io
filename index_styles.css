@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #06170e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #03803f;
+}
+
+section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add black drop-shadow */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.center {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+.section-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the section container horizontally */
+    padding: 20px 0; /* Add spacing between sections */
+}
+
+.section {
+    padding: 50px; /* Add padding around each section */
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add black drop-shadow */
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+.image-container {
+    text-align: center; /* Center the image horizontally */
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styling */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.section h2 {
+    text-align: center; /* Center the <h2> within the section */
+}
+
+.section p {
+    text-align: left; /* Align the <p> text to the left */
+}
+
+.date {
+    font-size: 14px;
+    color: #888;
+}
+
+.see-more-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold; /* Make the text bold */
+    border-radius: 10px; /* Round the corners of the button */
+}
+
+.header-with-banner {
+    position: relative;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.banner {
+    width: 100%;
+    height: 200px; /* Adjust the height of the banner */
+    background-image: url("../Images/Header_Image.png"); /* Path to your banner image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image within the container */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* Text color */
+    z-index: 1; /* Ensure header content appears above the banner */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent grey background */
+    padding: 20px; /* Add padding to the content for better readability */
+    border-radius: 10px; /* Round out the edges */
+}
+
+
